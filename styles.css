@@ -1,4 +1,15 @@
+body{
+    text-align: center;
+}
 /* Title section */
+img {
+    width:32px;
+    height:32px;
+}
+
+a:link{
+    text-decoration:none ;
+}
 
 h1.title{
     color: white;
@@ -13,14 +24,17 @@ h2.sub-title{
     padding-left:197px;
 }
 
+
 .navbar{
     padding:0 0 4.5rem;
+        
 }
 
 .navbar-brand{
     font-family: "Ubuntu";
     font-size: 2.5rem;
     font-weight: bold;
+        
 }
 
 .nav-item{
@@ -40,39 +54,98 @@ h2.sub-title{
     background-color: rgb(78, 198, 238);
 }
 
-.container-fluid{
-    background-color: rgb(78, 198, 238);
+
+
+/* Testimonials */
+
+#testimonials{
+    /* background-color:  rgb(152, 214, 235); */
+    background-color:antiquewhite;
+    padding: 10px 100px;
+}
+
+.testimonial-image{
+    width: 75%;
+    margin-left: 12.5%;
+    height: 75%;
+    text-align: right;
+}
+
+/* Contact section */
+
+div.zero{
+    /* text-align: left; */
+    font-family: "Ubuntu";
     
 }
 
-
-/* Contact section */
+.dp{
+    width: auto;
+    height: auto;
+    border-radius: 100%;
+}
 
 #contact{
     text-align: center;
     margin-top: 50px ;
     margin-bottom: 50px;
+    padding: 10px 100px;
+    font-family: 'Overpass', sans-serif;
 }
 
+/* Services */
+
+a.appointment{
+    margin-left: 40%;
+    font-size: 2rem;
+    color: rgb(78, 198, 238);
+}
 
 /* Information section */
 #information{
     margin-top: 50px;
-    padding-top: 50px;
-    padding-left: 10px;
+    padding: 10px 100px;
+    /* padding-top: 50px;
+    padding-left: 10px; */
     text-align: left;
     /* background-color: rgb(78, 198, 238); */
 }
 
 footer{
     background-color: rgb(78, 198, 238);
-    padding:50px 50px;
+    /* padding:50px 50px; */
+    padding: 10px 100px;
     margin-top:50px;
     color: white;
     font-family: 'Overpass', sans-serif;
+    height: 180px;
+}
+
+.para{
+    padding-top: 50px;
 }
 
 .footer p{
     margin-bottom:0;
+    text-align: center;
     font-size: 1.5rem;
+
+}
+
+#myBtn{
+    position: fixed;
+    right:10px;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgb(20, 115, 146);
+    border: none;
+    color: white;
+    outline: none;
+    /* cursor: pointer; */
+}
+
+#myBtn:active{
+    background:rgb(1, 63, 83);
 }
