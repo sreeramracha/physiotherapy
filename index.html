@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rebounce</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/logo1.jpeg" type="image/x-icon" class="logo">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Overpass&family=Patua+One&family=Ubuntu:wght@700&display=swap"
@@ -16,6 +16,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+    
+    <script src="https://kit.fontawesome.com/4af2300218.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="title-section">
@@ -62,25 +64,76 @@
                     </form> -->
                 </div>
             </div>
+
+            <a href="tel:+919100960973">
+                <i class="fa-regular fa-phone-volume fa-2x"></i>
+                <span>Call</span>
+            </a>
+            <a href="https://www.whatsapp.com/">                
+                <i class="fa-brands fa-whatsapp fa-2x"></i>
+                <span>Whatsapp</span>
+            </a>
+            <a href="mailto:rachasreeram@gmail.com">
+                <i class="fa-regular fa-envelope fa-2x"></i>                
+                <span>Gmail</span>
+            </a>                    
+
         </nav>
+    
         <h1 class="title">REBOUNCE</h1>
         <h2 class="sub-title">physiocare</h2>
     </div>
     
+    <div id="testimonials">
+        <div id="testimonial-carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active container-fluid">
+                    <img class="testimonial-image" src="https://www.srisriholistichospitals.com/wp-content/uploads/2020/12/Physiotherapy-1.png" alt="" srcset="">      
+                </div>
+                <div class="carousel-item container-fluid">
+                    <img class="testimonial-image" src="https://www.healthathomes.com/wp-content/uploads/2019/05/Physiotherapy-2.jpg" alt="" srcset="">
+                </div>        
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+          </div>    
+    </div>
+    
 
+    
     <div id="contact">
 
         <div class="row">
-            <div class="col md-6">
+
+            <div class="col md-4 zero">
+                <h1>Meet our <br>Professionals</h1>
+            </div>
+            <div class="col md-4 first">
+                <img class="dp" src="images/lady-img.jpg" alt="" srcset="">
                 <h1>Dr.Vinay(PT)</h1>
                 <h2>Ph:8919652796</h2>
             </div>
-            <div class="col md-6">
+            <div class="col md-4 second">
+                <img class="dp" src="images/lady-img.jpg" alt="" srcset="">
                 <h1>Dr.Richa Reddy(PT)</h1>
                 <h2>Ph:8125462101</h2>
             </div>
+        </div>
     </div>
     
+
+    <div class="services">
+        
+        <a class="appointment" href="#">
+            <i class="fa-regular fa-calendar-check"></i>
+            Request an appointment</a>
+    </div>
 
     <div id="information">
 
@@ -168,13 +221,18 @@
         </div>
 
     </div>
+    
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
     <footer class="footer">
-        <p>Well experienced in dealing Ortho & Neuro conditions</p>
-        <p>We pronounce your Rebounce</p>
+        <div class="para">
+            <p>Well experienced in dealing Ortho & Neuro conditions</p>
+            <p>We pronounce your Rebounce</p>
+        </div>
+        
     </footer>
     
-
+    <script src="index.js"></script>
 
 </body>
 </html>
