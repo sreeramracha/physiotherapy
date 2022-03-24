@@ -8,8 +8,14 @@ img {
 }
 
 a:link{
-    text-decoration:none ;
+    text-decoration:none ;   
 }
+
+a.icons{
+    color:#E5F0FF;;
+}
+
+
 
 h1.title{
     color: white;
@@ -24,17 +30,24 @@ h2.sub-title{
     padding-left:197px;
 }
 
+.top-section{
+    text-align: center;
+    background-color: #2C73D2;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    padding: 10px 100px;
+}
 
 .navbar{
-    padding:0 0 4.5rem;
-        
+    padding:0 0 4.5rem;  
+    
 }
 
 .navbar-brand{
     font-family: "Ubuntu";
     font-size: 2.5rem;
-    font-weight: bold;
-        
+    font-weight: bold;    
 }
 
 .nav-item{
@@ -46,12 +59,12 @@ h2.sub-title{
     font-family: 'Overpass', sans-serif;
 }
 
-
+/* rgb(78, 198, 238) */
 
 .title-section{
     text-align: center;
-    padding:10px 100px;
-    background-color: rgb(78, 198, 238);
+    padding:80px 100px 10px 100px;
+    background-color: #2C73D2;
 }
 
 
@@ -98,7 +111,7 @@ div.zero{
 a.appointment{
     margin-left: 40%;
     font-size: 2rem;
-    color: rgb(78, 198, 238);
+    color: #2C73D2;
 }
 
 /* Information section */
@@ -112,7 +125,7 @@ a.appointment{
 }
 
 footer{
-    background-color: rgb(78, 198, 238);
+    background-color: #2C73D2;
     /* padding:50px 50px; */
     padding: 10px 100px;
     margin-top:50px;
@@ -139,7 +152,8 @@ footer{
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background: rgb(20, 115, 146);
+    /* background: rgb(20, 115, 146); */
+    background: #D5A419;
     border: none;
     color: white;
     outline: none;
@@ -147,5 +161,7 @@ footer{
 }
 
 #myBtn:active{
-    background:rgb(1, 63, 83);
+    /* background:rgb(1, 63, 83); */
+    background: #795904;
 }
+
