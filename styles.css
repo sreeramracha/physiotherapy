@@ -1,0 +1,167 @@
+body{
+    text-align: center;
+}
+/* Title section */
+img {
+    width:32px;
+    height:32px;
+}
+
+a:link{
+    text-decoration:none ;   
+}
+
+a.icons{
+    color:#E5F0FF;;
+}
+
+
+
+h1.title{
+    color: white;
+    font-family: 'Patua One', cursive;
+    font-size: 5rem;
+}
+
+h2.sub-title{
+    color:white;
+    font-size: 2.5rem;
+    font-family: 'Overpass', sans-serif;
+    padding-left:197px;
+}
+
+.top-section{
+    text-align: center;
+    background-color: #2C73D2;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    padding: 10px 100px;
+}
+
+.navbar{
+    padding:0 0 4.5rem;  
+    
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;    
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size:1.2rem;
+    font-family: 'Overpass', sans-serif;
+}
+
+/* rgb(78, 198, 238) */
+
+.title-section{
+    text-align: center;
+    padding:80px 100px 10px 100px;
+    background-color: #2C73D2;
+}
+
+
+
+/* Testimonials */
+
+#testimonials{
+    /* background-color:  rgb(152, 214, 235); */
+    background-color:antiquewhite;
+    padding: 10px 100px;
+}
+
+.testimonial-image{
+    width: 75%;
+    margin-left: 12.5%;
+    height: 75%;
+    text-align: right;
+}
+
+/* Contact section */
+
+div.zero{
+    /* text-align: left; */
+    font-family: "Ubuntu";
+    
+}
+
+.dp{
+    width: auto;
+    height: auto;
+    border-radius: 100%;
+}
+
+#contact{
+    text-align: center;
+    margin-top: 50px ;
+    margin-bottom: 50px;
+    padding: 10px 100px;
+    font-family: 'Overpass', sans-serif;
+}
+
+/* Services */
+
+a.appointment{
+    margin-left: 40%;
+    font-size: 2rem;
+    color: #2C73D2;
+}
+
+/* Information section */
+#information{
+    margin-top: 50px;
+    padding: 10px 100px;
+    /* padding-top: 50px;
+    padding-left: 10px; */
+    text-align: left;
+    /* background-color: rgb(78, 198, 238); */
+}
+
+footer{
+    background-color: #2C73D2;
+    /* padding:50px 50px; */
+    padding: 10px 100px;
+    margin-top:50px;
+    color: white;
+    font-family: 'Overpass', sans-serif;
+    height: 180px;
+}
+
+.para{
+    padding-top: 50px;
+}
+
+.footer p{
+    margin-bottom:0;
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+
+#myBtn{
+    position: fixed;
+    right:10px;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* background: rgb(20, 115, 146); */
+    background: #D5A419;
+    border: none;
+    color: white;
+    outline: none;
+    /* cursor: pointer; */
+}
+
+#myBtn:active{
+    /* background:rgb(1, 63, 83); */
+    background: #795904;
+}
+
